@@ -34,19 +34,19 @@ If you haven't installed Node.js yet, you can download and install it from the [
 
 ### Steps to Change Jupyter Notebook Versions of pywidgets, widgetsnbextension
 
-Check your current environment by running the following code in a Jupyter Notebook cell:
+1. Check your current environment by running the following code in a Jupyter Notebook cell:
 ```python
 import sys
 sys.executable
 ```
 
-Activate the environment by using the following command in Anaconda Prompt:
+2. Activate the environment by using the following command in Anaconda Prompt:
 ```
 conda activate my_environment
 ```
 Or, if you're working from the Windows terminal, add the Anaconda directory to the system PATH following the steps mentioned below.
 
-Commands to Install and Verify Versions:
+3. Commands to Install and Verify Versions:
 Use the following commands to install and verify the versions of widgetsnbextension and ipywidgets:
 ```
 pip uninstall widgetsnbextension
@@ -54,7 +54,7 @@ pip install widgetsnbextension==3.6.5
 pip show widgetsnbextension
 ```
 
-Enable widgetsnbextension by running the following command:
+4. Enable widgetsnbextension by running the following command:
 ```
 jupyter nbextension enable --py widgetsnbextension
 ```
