@@ -57,7 +57,7 @@ pip show widgetsnbextension
 Enable widgetsnbextension by running the following command:
 ```
 jupyter nbextension enable --py widgetsnbextension
-
+```
 ## Anaconda Directory to PATH
 When installing Anaconda on your system, select the option to add its bin directory to the system PATH, or
 
